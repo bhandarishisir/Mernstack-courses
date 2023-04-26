@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .div-one {
+            width: 400px;
+            height: 400px;
+            background-color: #0000006d;
+            position: relative;
+            color: white;
+            font-size: 30px;
+        }
+
+        .div-two {
+            width: 200px;
+            height: 200px;
+            background-color: #add5f3;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .div-three {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+
+        }
+
+        .div-four {
+            width: 50px;
+            height: 50px;
+            background-color: #dbdcf4;
+            position: absolute;
+            right: 0;
+            color: black;
+            font-size: 20px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-one"> the first div
+        <div class="div-four">div four</div>
+        <div class="div-two">div two
+            <div class="div-three">div three</div>
+        </div>
+    </div>
+</body>
+
+</html>

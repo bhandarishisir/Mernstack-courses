@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Mregular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mthin';
+    src: url(fonts/Montserrat-Thin.ttf);
+}
+
+h1 {
+    font-family: 'Mregular', sans-serif;
+}
+
+h2 {
+    font-family: 'Mthin', sans-serif;
+}

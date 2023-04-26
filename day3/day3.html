@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 3</title>
+</head>
+
+<body>
+    <!-- table making -->
+    <b>Simple table</b> <br>
+    <table border="5">
+        <thead>
+            <th>First Name</th>
+            <th>Last name</th>
+            <th>Address</th>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Shisir</td>
+                <td>Bhandari</td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>Shisir</td>
+                <td>Bhandari</td>
+                <td>Bhaktapur</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Column span  --><br><br>
+    <b> spaning column lets to define no. of column a cell can span </b>
+    <table border="5">
+        <thead>
+            <th colspan="2"> Name</th>
+            <th>Address</th>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Shisir</td>
+                <td>Bhandari</td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>Shisir</td>
+                <td>Bhandari</td>
+                <td>Bhaktapur</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- row span  --><br>
+    <b>row span allows to define no. o f rows a cell can span</b>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last name</th>
+                <th>Address</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Shisir</td>
+                <td>Bhandari</td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>Shisir</td>
+                <td>Bhandari</td>
+                <td>Bhaktapur</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br><br>
+
+    <b>Just trying </b>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last name</th>
+                <th>Address</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2"><i>Hello</i></td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>Bhaktapur</td>
+            </tr>
+            <tr>
+                <td>hari</td>
+                <td>basnet</td>
+                <td>Lalitpur</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Forms</h3>
+    <!-- making forms -->
+
+    <fieldset>
+        <legend>Personal details </legend>
+
+        <form action="../day 3/thankyou.html" method="get">
+            <label>city:</label>
+            <select onchange="" name="city" value="">
+                <option value="ktm">Kathmandu</option>
+                <option value="ltp">lalitpur</option>
+                <option value="bkt">Bhaktapur</option>
+            </select><br>
+
+            <label>First name:</label>
+            <input type="text" name="firstname"> <br>
+
+            <label>Last Name</label>
+            <input type="text" placeholder="last name" name="lastname" value="">
+            <br>
+            <label>gender:</label>
+            <input type="radio" name=x value="male">male
+            <input type="radio" name="x" value="female">female
+
+            <br>
+            <label>email</label>
+            <input type="email" name="email">
+            <br>
+            <label>Date of Birth</label>
+            <input type="date" value="" name="dob">
+
+            <br>
+            <label>address</label>
+            <textarea name="address"></textarea>
+
+            <br>
+            <!-- button tag -->
+            button tag
+            <button>submit</button>
+            <br>
+            <!-- button by input tag -->
+            button by input tag
+            <input type="button" value="submit">
+        </form>
+    </fieldset>
+
+
+
+
+</body>
+
+</html>

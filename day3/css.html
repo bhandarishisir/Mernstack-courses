@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline and internal css</title>
+    <style>
+        h2 {
+            color: aliceblue;
+            background-color: rgb(10, 10, 10);
+        }
+
+        /* #ds {
+            color: rgb(207, 28, 28)
+        } */
+        h2.first {
+            color: blue;
+            background-color: rgb(65, 121, 91)
+        }
+
+        p.paragraph {
+            color: blue;
+            margin: 10px;
+        }
+
+        p.paragraph::first-letter {
+            font-size: 20px;
+        }
+
+        p.paragraph::first-line {
+            color: aqua;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+
+<!-- inline csss -->
+<h1 style="color:aqua; background-color:yellow; font-style: oblique;">trying inline css 1</h1>
+<h1 style="color:blueviolet;background-color:aqua">trying inlne css 2</h1>
+
+<!-- internal css -->
+
+<h2 id="ds" class="first">internal css 1</h2>
+<h2 class="first">internal css 2</h2>
+<div class="first">
+    div class first
+</div>
+
+<p class="paragraph">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quis enim facere atque modi? Libero aliquam
+    reprehenderit, nemo architecto, blanditiis incidunt nobis assumenda minus, porro quam eveniet dolorem exercitationem
+    dolor quae consequuntur illo? Id suscipit expedita eveniet quae quaerat voluptatem nesciunt architecto, voluptatibus
+    accusantium veritatis.
+</p>
+
+<body>
+
+</body>
+
+</html>

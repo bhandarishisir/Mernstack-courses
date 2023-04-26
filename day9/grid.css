@@ -1,0 +1,78 @@
+.grid {
+    border: 1px solid black;
+    padding: 20px
+}
+
+
+
+.parent {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    grid-template-areas:
+        'header header header'
+        'left content right'
+        'footer footer footer'
+    ;
+}
+
+
+.div1 {
+    grid-area: header;
+}
+
+.div2 {
+    grid-area: left;
+}
+
+.div3 {
+    grid-area: content;
+    width: 50px;
+}
+
+.div4 {
+    grid-area: right;
+
+}
+
+.div5 {
+    grid-area: footer;
+}
+
+.assignment {
+    display: grid;
+    grid-template-areas:
+        'header menu menu menu'
+        'hero hero hero hero'
+        'main main white img-wrapper'
+        'banner banner banner banner'
+    ;
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.hero {
+    color: aqua;
+    grid-area: hero;
+}
+
+.main {
+    grid-area: main;
+}
+
+.white {
+    grid-area: white;
+}
+
+.img-wrapper {
+    grid-area: img-wrapper;
+}
+
+.banner {
+    grid-area: banner;
+}

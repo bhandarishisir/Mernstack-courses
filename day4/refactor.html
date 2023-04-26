@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just try</title>
+    <style>
+        .black-border {
+            border: 5px solid black;
+
+        }
+
+        .text-center {
+            text-align: center;
+            color: green;
+        }
+
+        .header,
+        .navigation-menu,
+        .footer {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .left-content {
+            width: 25%;
+            margin-right: 10px;
+        }
+
+        .main-content {
+            width: 50%;
+            margin-right: 10px
+        }
+
+        .right-content {
+            width: 25%;
+        }
+
+        .height {
+            height: 400px
+        }
+
+
+        .wrapper {
+            justify-content: center;
+            display: flex;
+        }
+
+        .footer {
+            margin-top: 10px
+        }
+
+
+        /* to write the left-content .right-content and main content in center */
+        .left-content,
+        .right-content,
+        .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header black-border ">
+        <h1 class=" text-center">header</h1>
+    </div>
+    <div class="navigation-menu black-border">
+        <h1 class=" text-center">navigation menu</h1>
+    </div>
+    <div class="wrapper">
+        <div class="left-content black-border height ">
+            <h1 class=" text-centerx">left content</h1>
+        </div>
+        <div class="main-content black-border height">
+            <h1 class=" text-centerx">main content</h1>
+        </div>
+        <div class="right-content black-border height">
+            <h1 class=" text-centerx">right content</h1>
+        </div>
+    </div>
+    <div class="footer black-border">
+        <h1 class=" text-center">footer</h1>
+    </div>
+
+</body>
+
+</html>
