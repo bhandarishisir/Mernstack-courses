@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #8a8a8a;
+    font-weight: 800;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 20px;
+    font-weight: 400;
+    color: #262626;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-left: 15px;
+}
+
+.div-wrapper {
+    height: 280px;
+    background-color: #eeeeee;
+    width: 80vw;
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 8vw;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    height: 280px
+}
+
+.inner .status {
+    display: flex;
+    /* background-color: pink; */
+    flex: .3;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 180px
+}
+
+.info {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: .7;
+    padding-left: 5vw;
+    /* background-color: aqua; */
+}
+
+.status p {
+    font-size: 15px;
+}
+
+.status h1 {
+    margin-bottom: -15px;
+}
+
+.first-element:hover,
+.second-element:hover {
+    color: aqua;
+    font-size: 25px;
+}
+
+.nav:hover {
+    font-size: 30px;
+    color: black
+}
+
+header h1:hover {
+    color: aqua
+}
+
+.information {
+    background-color: #2a3038;
+    height: 8 0px;
+    width: 200px;
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+    padding: 10px
+        /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.information p {
+    font-size: 15px;
+    color: white
+}

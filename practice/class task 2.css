@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #dee0e4;
+    font-size: 15px;
+}
+
+.top-header-left {
+    display: flex;
+
+}
+
+.top-header-left .icon-wrapper {
+    padding: 5px;
+    border-left: 2px solid #dee0e4;
+}
+
+.top-header-right {
+    display: flex;
+}
+
+.top-header-right .icon-wrapper {
+    border-left: 2px solid #dee0e4;
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.navbar .left {
+    display: flex;
+    /* width: 20%; */
+}
+
+/* 
+.left .home-button {} */
+
+.navbar .home-button {
+    font-size: 30px;
+    font-weight: 650;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.navbar .search {
+    width: 20%;
+    font-weight: 100;
+    outline: none;
+    padding-left: 15px;
+}
+
+.abc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.abc .macbook {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.abc .first {
+    position: relative;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    font-size: 50px;
+    color: rgb(240, 35, 35);
+    font-weight: 700;
+}
+
+.abc .second {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: rgb(224, 22, 22);
+    font-size: 20px;
+    font-weight: 500s;
+}
+
+.abc .shop-button {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.abc .shop-button a {
+    color: rgb(239, 17, 17);
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(75, 232, 13);
+
+}
+
+.abc .price {
+    color: rgb(228, 19, 19);
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 20px;
+}
+
+.txt {
+    color: #737373;
+    background-color: #262626;
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+.hello {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
